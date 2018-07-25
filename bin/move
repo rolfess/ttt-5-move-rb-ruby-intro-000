@@ -13,6 +13,6 @@ puts "Welcome to Tic Tac Toe!"
 #move(board, 8, " ")
 #move(board, 9, " ")
 puts "Where would you like to go?"
-index=gets.strip
-move(board, index, char)
+input=gets.strip
+move(board, input, char)
 display_board(board)
