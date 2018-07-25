@@ -14,5 +14,5 @@ puts "Welcome to Tic Tac Toe!"
 #move(board, 9, " ")
 puts "Where would you like to go?"
 input=gets.strip
-move(board, index, player_character)
+move(board, index, char)
 display_board(board)
